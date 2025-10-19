@@ -63,6 +63,44 @@ header h2{
     margin-top: -5px
 }
 
+.container h1{
+  margin-top: 40px;
+  font-family: times-new-roman;
+  text-align: center;
+  font-size: 4rem;
+  width: 90%;
+  justify-self: center;
+}
+
+.inc{
+  width: 90%;
+  max-width: 600px;
+  justify-self: center;
+  border: 1px solid purple;
+}
+
+.but-hold{
+  display:flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.button1{
+  color: white;
+  background: purple;
+  padding: 15px;
+  font-size: 15px;
+  font-weight:bold;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 150px;
+}
+
+.wnr{
+  display:flex;
+  justify-content: space-between;
+}
+
 @media (min-width: 769px) {
     .nav-menu ul{
         list-style:none;
@@ -131,5 +169,9 @@ header h2{
 
 .hamburger{
     display: block;
+}
+
+.container h1{
+  font-size: 2rem;
 }
 }
