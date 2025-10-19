@@ -1,7 +1,7 @@
 body{
     /* background: black; */
     color: White;
-    background: radial-gradient(circle at top right,purple 16%,black 20%);
+    background: radial-gradient(circle at top right,purple 10%,black 14%);
 }
 
 header{
@@ -126,6 +126,15 @@ header h2{
 .img-ppp img{
   width:38px;
   border-radius:50%;
+}
+
+.history{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.history p{
+  color: grey;
 }
 
 @media (min-width: 769px) {
