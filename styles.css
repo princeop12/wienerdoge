@@ -69,14 +69,16 @@ header h2{
   text-align: center;
   font-size: 4rem;
   width: 90%;
-  justify-self: center;
+  /* justify-self: center; */
+  margin: 20px auto;
 }
 
 .inc{
   width: 90%;
   max-width: 600px;
-  justify-self: center;
-  border: 1px solid purple;
+  /* justify-self: center; */
+  /* border: 1px solid purple; */
+  margin: auto;
 }
 
 .but-hold{
@@ -93,12 +95,37 @@ header h2{
   font-weight:bold;
   border-radius: 10px;
   border: 2px solid black;
-  width: 150px;
+  width: 120px;
+  margin: 20px;
 }
 
 .wnr{
   display:flex;
   justify-content: space-between;
+  width: 90%;
+  margin:10px auto;
+}
+
+.money-display{
+  text-align:right;
+  font-family: arial;
+  border: 2px purple solid;
+  border-radius: 10px;
+}
+
+.money-display h2{
+  text-align:center ;
+  font-family: arial;
+}
+
+.img-ppp{
+  display:flex;
+  gap:10px;
+}
+
+.img-ppp img{
+  width:38px;
+  border-radius:50%;
 }
 
 @media (min-width: 769px) {
