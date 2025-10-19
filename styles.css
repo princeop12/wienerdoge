@@ -55,7 +55,7 @@ header h2{
 }
 
 .current-page{
-    color: black;
+    color: black !important;
     border: 1px solid purple;
     padding:5px;
     border-radius:5px;
